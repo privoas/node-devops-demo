@@ -11,6 +11,6 @@ app.get('/download', (req, res) => {
 
 app.post('/issues', (req, res) => {
   res.send('Posting issue'); 
-}
+});
 
 app.listen(4000, () => console.log('running server'));
