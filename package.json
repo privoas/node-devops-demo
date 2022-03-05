@@ -1,0 +1,28 @@
+{
+  "name": "node-devops-demo",
+  "version": "1.0.0",
+  "description": "A nodejs demo application to try CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privoas/node-devops-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/privoas/node-devops-demo/issues"
+  },
+  "homepage": "https://github.com/privoas/node-devops-demo#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.1",
+    "should": "^13.2.3",
+    "supertest": "^6.2.2"
+  }
+}
