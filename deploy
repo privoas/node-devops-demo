@@ -1,5 +1,5 @@
 -#!/bin/sh     
-ssh root@jenkins.onevnet.com <  cd /var/node-api/app1
+ssh ubuntu@174.129.75.68 <  cd /var/node-api/app1
  git init
  git pull origin
  npm install --production
