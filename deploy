@@ -1,0 +1,8 @@
+-#!/bin/sh     
+ssh userName@development-server-ip <  cd /your-project-path 
+ git pull
+ npm install --production
+ npm install -g pm2
+ pm2 restart all
+ exit      
+EOF
